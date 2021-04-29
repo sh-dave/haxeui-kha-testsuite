@@ -1,0 +1,15 @@
+[submodule "Kha"]
+	path = Kha
+	url = https://github.com/Kode/Kha.git
+[submodule "libs/haxeui-core"]
+	path = libs/haxeui-core
+	url = https://github.com/haxeui/haxeui-core.git
+[submodule "libs/hscript"]
+	path = libs/hscript
+	url = https://github.com/HaxeFoundation/hscript.git
+[submodule "libs/haxeui-kha"]
+	path = libs/haxeui-kha
+	url = https://github.com/haxeui/haxeui-kha.git
+[submodule "libs/hxnodejs"]
+	path = libs/hxnodejs
+	url = https://github.com/haxefoundation/hxnodejs.git

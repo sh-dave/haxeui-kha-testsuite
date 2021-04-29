@@ -1,0 +1,5 @@
+<hbox>
+	<button id="dec" text="-" />
+	<label id="counterValue" text="0" style="font-size: 24px; color: #fff;" />
+	<button id="inc" text="+" />
+</hbox>
