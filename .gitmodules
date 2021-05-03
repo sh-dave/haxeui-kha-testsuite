@@ -13,3 +13,6 @@
 [submodule "libs/hxnodejs"]
 	path = libs/hxnodejs
 	url = https://github.com/haxefoundation/hxnodejs.git
+[submodule "libs/haxeui-theme-kenney"]
+	path = libs/haxeui-theme-kenney
+	url = https://github.com/haxeui/haxeui-theme-kenney.git

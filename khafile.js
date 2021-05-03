@@ -5,7 +5,8 @@ console.log(`building for ${platform}`);
 // suite.addParameter('--main externalXmlBindings.Main');
 // suite.addParameter('--main internalXmlBindings.Main');
 // suite.addParameter('--main swapComponents.Main');
-suite.addParameter('--main delayedAdd.Main');
+// suite.addParameter('--main delayedAdd.Main');
+suite.addParameter('--main kenneyButtonFlicker.Main');
 
 suite.localLibraryPath = 'libs';
 
@@ -22,6 +23,7 @@ switch (platform) {
 
 suite.addLibrary('haxeui-core');
 suite.addLibrary('haxeui-kha');
+suite.addLibrary('haxeui-theme-kenney');
 
 suite.addSources('src');
 
