@@ -4,7 +4,8 @@ console.log(`building for ${platform}`);
 
 // suite.addParameter('--main externalXmlBindings.Main');
 // suite.addParameter('--main internalXmlBindings.Main');
-suite.addParameter('--main swapComponents.Main');
+// suite.addParameter('--main swapComponents.Main');
+suite.addParameter('--main delayedAdd.Main');
 
 suite.localLibraryPath = 'libs';
 
