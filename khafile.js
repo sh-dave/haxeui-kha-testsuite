@@ -7,6 +7,7 @@ console.log(`building for ${platform}`);
 // suite.addParameter('--main swapComponents.Main');
 // suite.addParameter('--main delayedAdd.Main');
 suite.addParameter('--main kenneyButtonFlicker.Main');
+// suite.addParameter('--main issue41.Main');
 
 suite.localLibraryPath = 'libs';
 
