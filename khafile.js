@@ -6,9 +6,11 @@ console.log(`building for ${platform}`);
 // suite.addParameter('--main internalXmlBindings.Main');
 // suite.addParameter('--main swapComponents.Main');
 // suite.addParameter('--main delayedAdd.Main');
-suite.addParameter('--main kenneyButtonFlicker.Main');
+// suite.addParameter('--main kenneyButtonFlicker.Main');
 // suite.addParameter('--main issue41.Main');
 // suite.addParameter('--main relativeSizes.Main');
+suite.addParameter('--main localization.Main');
+	suite.addAssets('src/localization/locale/**', { nameBaseDir: 'src/localization' });
 
 suite.localLibraryPath = 'libs';
 

@@ -1,0 +1,6 @@
+
+#  msgid = "this_is_ok"
+#  msgstr = "I am label 1"
+
+#  msgid = "this fails"
+#  msgstr = "I am label 2"

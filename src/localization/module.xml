@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module id="localization">
+	<resources>
+		<resource path="localization/locale" />
+	</resources>
+
+	<locales>
+		<locale id="en_US" resource="localization/locale/en_US.po" />
+		<locale id="de_DE" resource="localization/locale/de_DE.po" />
+	</locales>
+</module>
