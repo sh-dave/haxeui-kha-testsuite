@@ -12,7 +12,7 @@ package scrollview;
 		/*.scrollview .verticalscroll { hidden: true; }*/
 	</style>
 
-	<scrollview id="map" styleNames="wh-100" scrollMode="interial">
+	<scrollview id="map" styleNames="wh-100" scrollMode="inertial">
 		<absolute id="map">
 			<image resource="file://map.png" />
 		</absolute>
