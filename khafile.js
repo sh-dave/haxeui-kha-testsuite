@@ -9,8 +9,12 @@ console.log(`building for ${platform}`);
 // suite.addParameter('--main kenneyButtonFlicker.Main');
 // suite.addParameter('--main issue41.Main');
 // suite.addParameter('--main relativeSizes.Main');
-suite.addParameter('--main localization.Main');
-	suite.addAssets('src/localization/locale/**', { nameBaseDir: 'src/localization' });
+
+// suite.addParameter('--main localization.Main');
+// 	suite.addAssets('src/localization/locale/**', { nameBaseDir: 'src/localization' });
+
+suite.addParameter('--main scrollview.Main');
+	suite.addAssets('assets/map.png');
 
 suite.localLibraryPath = 'libs';
 
