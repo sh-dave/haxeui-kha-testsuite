@@ -13,15 +13,20 @@ console.log(`building for ${platform}`);
 // suite.addParameter('--main localization.Main');
 // 	suite.addAssets('src/localization/locale/**', { nameBaseDir: 'src/localization' });
 
-suite.addParameter('--main scrollview.Main');
-	suite.addAssets('assets/map.png');
+// suite.addParameter('--main scrollview.Main');
+// 	suite.addAssets('assets/map.png');
+
+// suite.addParameter('--main fading.Main');
+
+suite.addParameter('--main scaledImageSize.Main');
+	suite.addAssets('assets/big_kha_Logo.png');
 
 suite.localLibraryPath = 'libs';
 
 suite.addParameter('--times'); // (DK) show haxe compiler durations
 suite.addDefine('macro-times');
-suite.addParameter('-dce full');
-suite.addDefine('analyzer_optimize');
+// suite.addParameter('-dce full');
+// suite.addDefine('analyzer_optimize');
 
 switch (platform) {
 	case 'debug-html5':
